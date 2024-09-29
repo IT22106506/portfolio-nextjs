@@ -13,14 +13,14 @@ export default function Page() {
           className="rounded-full border-[2px] border-yellow-500 -ml-2 hover:grayscale transition-all duration-300"
         />
         <div>
-          <p className="text-xl font-semibold">John Doe</p>
-          <p className="text-lg text-gray-400">Student at SLIIT</p>
+          <p className="text-xl font-semibold hover:text-red-600">A. Sandithi Nethsiluni</p>
+          <p className="text-lg text-gray-400 hover:text-yellow-600">Student at SLIIT</p>
         </div>
       </div>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter hover:text-green-600">
         Welcome! 👋
       </h1>
-      <p className="mb-4">
+      <p className="mb-4 hover:text-blue-600">
         I am a passionate JavaScript developer and full-time student at SLIIT.
         With a year of self-taught coding experience, I enjoy building web
         applications and writing about web development as a part-time blogger.
@@ -28,7 +28,7 @@ export default function Page() {
         seeking new opportunities to collaborate and grow as a developer.
       </p>
       <div className="my-8">
-        <p className="text-gray-400 text-lg mb-2">From my blog</p>
+        <p className="text-gray-400 text-lg mb-2 hover:text-purple-600">From my blog</p>
         <BlogPosts />
       </div>
     </section>
